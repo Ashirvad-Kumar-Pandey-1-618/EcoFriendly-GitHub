@@ -22,7 +22,7 @@ jobs:
       run: node index.js > quotes.txt
     - name: Commit change & Push
       run: |
-          git config user.name 'Ashirvad-Kumar-Pandey-1-618 '
+          git config user.name 'Ashirvad-Kumar-Pandey-1-618'
           git config user.email 'ashirvadpandey1@gmail.com'
           git commit -am "plant some tree 🌳"
           git push
